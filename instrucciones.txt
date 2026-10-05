@@ -1,0 +1,22 @@
+REQUISITOS
+- Android Studio
+- XAMPP
+- Apache
+- MySQL
+
+INSTALACIÓN
+
+1. Descargar el proyecto.
+2. Iniciar Apache y MySQL en XAMPP.
+3. Crear la BD saborapp_db.
+4. Importar database/saborapp_db.sql.
+4.1 extraer el archivo saborapp_api.rar
+5. Copiar backend/saborapp_api a C:\xampp\htdocs\
+6. Probar:
+   http://localhost/saborapp_api/platos/listar.php
+7. Abrir el proyecto Android.
+8. Si utiliza emulador:
+   BASE_URL = http://10.0.2.2/saborapp_api/
+9. Si utiliza celular físico:
+   BASE_URL = http://IP-DE-LA-PC/saborapp_api/
+10. Ejecutar SaborApp.
